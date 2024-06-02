@@ -56,7 +56,7 @@ const HitTester = ({ selectedTool }) => {
         <Tool
           modelPath={`/tools/${selectedTool.modelPath}.glb`}
           position={toolPosition.clone()} // Adjust the Y position to place above the reticle
-          scale={1.3}
+          scale={0.2}
         />
       )}
 
